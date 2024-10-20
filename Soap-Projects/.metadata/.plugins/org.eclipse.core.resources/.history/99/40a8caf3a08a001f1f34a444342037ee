@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetCustomerDetailResponse>
+	<CustomerDetail>
+		<id>123</id>
+		<name>Ligor</name>
+		<phone>99999999</phone>
+		<email>LigorHachinni@mail.com</email>
+	</CustomerDetail>
+
+</GetCustomerDetailResponse>

@@ -1,0 +1,7 @@
+package com.viniciusmrcosta.client;
+
+import javax.xml.ws.handler.soap.SOAPHandler;
+
+public class HeaderHandler implements SOAPHandler<SOAPMessageContext>{
+
+}

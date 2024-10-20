@@ -1,0 +1,5 @@
+package com.viniciusCosta.soap.webservices.customers_administration.soap.exception;
+
+public class CustomerNotFoundException extends Exception {
+
+}

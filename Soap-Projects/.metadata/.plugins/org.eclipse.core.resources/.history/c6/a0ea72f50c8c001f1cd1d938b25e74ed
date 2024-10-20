@@ -1,0 +1,19 @@
+package com.viniciusCosta.soap.webservices.customers_administration.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Component;
+
+import com.viniciusCosta.soap.webservices.customers_administration.bean.Customer;
+
+@Component
+public class CustomerDetailService {
+	
+	private static List<Customer> customers = new ArrayList<>(); 
+	
+	static {
+		Customer customer1 = new Customer(1,"Derek","999999","derek.manuel@mail.com");
+		customers.add(customer1);
+	}
+}

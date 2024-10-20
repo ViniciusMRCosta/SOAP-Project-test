@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetCustomerDetailResponse xmlns="http://viniciusmrcosta.com.br">
+	<id>123</id>
+</GetCustomerDetailResponse>

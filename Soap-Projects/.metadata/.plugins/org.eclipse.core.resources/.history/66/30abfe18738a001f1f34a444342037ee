@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetCustomerDetailRequest xmlns="http://viniciusmrcosta.com.br">
+	<CutomerDetail>
+		<id>123</id>
+		<name>Ligor</name>
+	</CutomerDetail>
+</GetCustomerDetailRequest>

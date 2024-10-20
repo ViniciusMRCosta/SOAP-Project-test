@@ -1,0 +1,15 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:vin="http://viniciusmrcosta.com.br">
+   <soapenv:Header>
+      <wsse:Security xmlns:wsse="http://schemas.xmlsoap.org/ws/2002/07/secext">
+         <wsse:UsernameToken>
+            <wsse:Username>user</wsse:Username>
+            <wsse:Password>password</wsse:Password>
+         </wsse:UsernameToken>
+      </wsse:Security>
+   </soapenv:Header>
+   <soapenv:Body>
+      <vin:GetCustomerDetailRequest>
+         <vin:id>1</vin:id>
+      </vin:GetCustomerDetailRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

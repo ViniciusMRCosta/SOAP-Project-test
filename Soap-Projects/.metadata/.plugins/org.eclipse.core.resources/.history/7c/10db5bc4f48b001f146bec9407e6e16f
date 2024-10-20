@@ -1,0 +1,19 @@
+package com.viniciusCosta.soap.webservices.customers_administration.soap;
+
+import org.springframework.ws.server.endpoint.annotation.Endpoint;
+
+import br.com.viniciusmrcosta.GetCustomerDetailResponse;
+import br.com.viniciusmrcosta.GetCustomerDetailRequest;
+
+@Endpoint
+public class CustomerDetailEndPoint {
+	
+	public GetCustomerDetailResponse processCustomerDetailRequest(GetCustomerDetailRequest request) {
+		
+		GetCustomerDetailResponse response = new GetCustomerDetailResponse();
+		
+		
+		return response;
+	}
+
+}

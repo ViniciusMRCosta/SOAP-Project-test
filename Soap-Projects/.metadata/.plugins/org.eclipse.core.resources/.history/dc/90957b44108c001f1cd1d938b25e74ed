@@ -1,0 +1,33 @@
+package com.viniciusCosta.soap.webservices.customers_administration.soap;
+
+import org.springframework.ws.server.endpoint.annotation.Endpoint;
+import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
+import org.springframework.ws.server.endpoint.annotation.RequestPayload;
+import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
+
+import br.com.viniciusmrcosta.CustomerDetail;
+import br.com.viniciusmrcosta.GetCustomerDetailResponse;
+import br.com.viniciusmrcosta.GetCustomerDetailRequest;
+
+@Endpoint
+public class CustomerDetailEndPoint {
+	
+	@PayloadRoot(namespace="http://viniciusmrcosta.com.br", localPart="GetCustomerDetailRequest")
+	@ResponsePayload
+	public GetCustomerDetailResponse processCustomerDetailRequest(@RequestPayload GetCustomerDetailRequest request) {
+		
+		GetCustomerDetailResponse response = new GetCustomerDetailResponse();
+		CustomerDetail customerDetail = new CustomerDetail();
+		
+		customerDetail.setId(1);
+		customerDetail.setName("Derek");
+		customerDetail.setPhone("99999999");
+		customerDetail.setEmail("derek.manuel@mail.com");
+		
+		response.setCustomerDetail(customerDetail);
+		
+		
+		return response;
+	}
+
+}

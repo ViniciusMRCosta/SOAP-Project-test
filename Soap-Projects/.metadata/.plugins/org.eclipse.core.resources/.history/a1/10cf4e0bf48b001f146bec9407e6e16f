@@ -1,0 +1,9 @@
+package com.viniciusCosta.soap.webservices.customers_administration.soap;
+
+import br.com.viniciusmrcosta.GetCustomerDetailResponse;
+
+public class CustomerDetailEndPoint {
+	
+	public GetCustomerDetailResponse 
+
+}

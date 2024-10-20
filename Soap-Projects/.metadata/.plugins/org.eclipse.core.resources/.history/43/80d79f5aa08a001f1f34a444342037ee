@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+		targetNamespace="http://viniciusmrcosta.com.br" 
+		xmlns:tns="http://viniciusmrcosta.com.br" 
+		elementFormDefault="qualified">
+		
+	<element name="GetCustomerDetailRequest">
+		<complexType>
+			<sequence>
+				<element name="id" type="integer"></element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>

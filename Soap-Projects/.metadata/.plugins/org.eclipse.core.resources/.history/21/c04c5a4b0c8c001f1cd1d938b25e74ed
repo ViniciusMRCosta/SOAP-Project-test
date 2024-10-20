@@ -1,0 +1,8 @@
+package com.viniciusCosta.soap.webservices.customers_administration.service;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class CustomerDetailService {
+
+}

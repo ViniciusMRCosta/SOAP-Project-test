@@ -1,0 +1,7 @@
+package com.viniciusCosta.soap.webservices.customers_administration.soap;
+
+import org.springframework.ws.config.annotation.WsConfigurerAdapter;
+
+public class WebServiceConfig extends WsConfigurerAdapter{
+	
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetCustomerDetailResponse 
+		xmlns="http://viniciusmrcosta.com.br"
+		xsi:schemaLocation="http://viniciusmrcosta.com.br customer-information.xsd"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<CustomerDetail>
+		<id>123</id>
+		<name>Ligor</name>
+		<phone>99999999</phone>
+		<email>LigorHachinni@mail.com</email>
+	</CustomerDetail>
+
+</GetCustomerDetailResponse>
